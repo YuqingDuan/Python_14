@@ -1,4 +1,8 @@
 '''文本相似度比较（13步）'''
+'''
+TF-IDF算法
+https://www.cnblogs.com/pinard/p/6693230.html
+'''
 import jieba
 from gensim import corpora, models, similarities
 from collections import defaultdict
